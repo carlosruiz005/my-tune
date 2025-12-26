@@ -1,31 +1,30 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version Change: Initial → 1.0.0
-Change Type: MAJOR (Initial constitution establishment)
+Version Change: 1.0.0 → 1.1.0
+Change Type: MINOR (Add repository structure / monorepo declaration)
 
-Principles Defined:
-  1. Code Quality First - Enforces consistent, maintainable code across all platforms
-  2. Test-Driven Development (NON-NEGOTIABLE) - Mandatory TDD with platform-specific test coverage requirements
-  3. Cross-Platform UX Consistency - Ensures uniform user experience while respecting platform conventions
-  4. Performance Standards (NON-NEGOTIABLE) - Strict performance requirements for mobile platforms
+Principles Modified/Added:
+  - +Repository Structure (Monorepo): Declares repository layout and platform separation
 
-Sections Added:
-  - Platform-Specific Requirements (Android, iOS, WebApp constraints)
-  - Quality Gates (automated checks before deployment)
-  - Governance (amendment procedures and compliance validation)
+Sections Modified:
+  - Platform-Specific Requirements: clarified repository layout expectations
 
 Templates Status:
-  ✅ plan-template.md - Constitution Check section aligns with all four principles
-  ✅ spec-template.md - User scenarios support cross-platform testing requirements
-  ✅ tasks-template.md - Task structure supports platform-specific and shared tasks
+  ✅ plan-template.md - updated to include Monorepo Structure constitution check
+  ✅ spec-template.md - aligns with multi-platform requirements
+  ✅ tasks-template.md - already aligned with monorepo paths (android/, ios/, webapp/)
 
 Follow-up Actions:
-  - README.md not found - consider creating project documentation
-  - No runtime guidance files detected - all principles self-contained
-  - Command templates not found in expected location - no updates required
+  - Ensure CI/CD configs reflect monorepo build pipelines per platform
+  - Review README and quickstart to document repository layout (suggested)
 
-Date: 2025-12-05
+Versioning:
+  - **New Version**: 1.1.0
+  - **Ratified**: 2025-12-05 (original)
+  - **Last Amended**: 2025-12-08
+
+Date: 2025-12-08
 -->
 
 # My Tune Constitution
@@ -120,6 +119,31 @@ ALL platforms MUST meet these performance requirements:
 
 ## Platform-Specific Requirements
 
+## Repository Structure (Monorepo)
+
+- **Monorepo Declaration (NON-NEGOTIABLE)**: This project is a monorepo. The repository MUST contain
+  distinct, top-level directories for each platform's native implementation and shared modules. At a
+  minimum, the following directories MUST exist and be used as the authoritative locations for
+  platform-specific code and configuration:
+  - `ios/` — Native iOS implementation (Swift, SwiftUI/UIKit, XCTest, platform resources)
+  - `android/` — Native Android implementation (Kotlin, AndroidX, instrumentation tests)
+  - `webapp/` — Native web application (React + TypeScript, web-specific tests and assets)
+  - `shared/` — Platform-agnostic modules (business logic, shared models, design tokens, utilities)
+  - `tools/` or `ci/` (optional) — tooling and CI/CD orchestrations that operate across platforms
+
+- **Implementation Requirement**: Each platform's code MUST be implemented using native technologies for
+  that platform (iOS in Swift, Android in Kotlin, Web in React/TypeScript). Shared code MAY be used
+  when it is truly platform-agnostic (pure business logic, formatters, design tokens), and such shared
+  modules MUST live in `shared/` and expose well-defined, stable interfaces.
+
+- **CI/CD and Developer Workflow**: CI pipelines and developer tooling MUST support building,
+  testing, and releasing each platform independently. Pull requests MUST clearly scope which top-level
+  directories are impacted and include platform-specific checklists where applicable.
+
+- **Rationale**: A monorepo provides streamlined dependency management for shared modules, centralized
+  CI configuration, and easier coordination of cross-platform features while preserving native
+  implementation fidelity for each platform.
+
 ### Android Requirements
 - **Minimum SDK**: API 24 (Android 7.0) with targetSdk at latest stable
 - **Architecture**: MVVM or MVI with Kotlin Coroutines and Flow
@@ -182,4 +206,4 @@ This constitution supersedes all other development practices and guidelines. All
 
 **Versioning Policy**: This constitution follows semantic versioning (MAJOR.MINOR.PATCH). All changes MUST update the version number and amendment date. Historical versions maintained for reference.
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-05
+**Version**: 1.1.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-08

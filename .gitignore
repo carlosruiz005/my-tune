@@ -1,0 +1,47 @@
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/*.iml
+android/.idea/
+android/captures/
+android/.externalNativeBuild
+android/.cxx
+android/app/release/
+
+# iOS
+ios/build/
+ios/*.xcworkspace
+ios/xcuserdata/
+ios/*.xcuserstate
+ios/Pods/
+ios/Podfile.lock
+ios/.DS_Store
+
+# WebApp
+webapp/node_modules/
+webapp/dist/
+webapp/build/
+webapp/.env
+webapp/.env.local
+webapp/.vite/
+webapp/coverage/
+
+# General
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+.env
+.vscode/
+.idea/
+
+# Gradle Wrapper Jar (will be generated)
+android/gradle/wrapper/gradle-wrapper.jar
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

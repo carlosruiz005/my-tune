@@ -37,6 +37,7 @@
 - [ ] **Performance Standards**: Performance targets defined (launch time, frame rate, memory), monitoring tools specified
 - [ ] **Platform Requirements**: Target platforms identified (Android/iOS/WebApp), minimum versions specified, architecture patterns chosen
 - [ ] **Quality Gates**: CI/CD pipeline requirements documented, manual verification checklist defined
+ - [ ] **Monorepo Structure**: Repository layout defined with `ios/`, `android/`, `webapp/`, `shared/` and per-platform CI/build steps
 
 ## Project Structure
 

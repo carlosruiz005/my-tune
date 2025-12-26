@@ -1,0 +1,69 @@
+{
+  "fontFamilies": {
+    "default": {
+      "android": "Roboto",
+      "ios": "San Francisco",
+      "web": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    },
+    "monospace": {
+      "android": "Roboto Mono",
+      "ios": "SF Mono",
+      "web": "'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace"
+    }
+  },
+  "fontSizes": {
+    "noteDisplay": {
+      "value": 72,
+      "unit": "sp"
+    },
+    "octaveDisplay": {
+      "value": 24,
+      "unit": "sp"
+    },
+    "centDisplay": {
+      "value": 32,
+      "unit": "sp"
+    },
+    "stringLabel": {
+      "value": 16,
+      "unit": "sp"
+    },
+    "tuningName": {
+      "value": 20,
+      "unit": "sp"
+    },
+    "body": {
+      "value": 16,
+      "unit": "sp"
+    },
+    "caption": {
+      "value": 12,
+      "unit": "sp"
+    },
+    "headline": {
+      "value": 24,
+      "unit": "sp"
+    },
+    "title": {
+      "value": 20,
+      "unit": "sp"
+    }
+  },
+  "fontWeights": {
+    "light": 300,
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700
+  },
+  "lineHeights": {
+    "tight": 1.2,
+    "normal": 1.5,
+    "relaxed": 1.75
+  },
+  "letterSpacing": {
+    "tight": -0.5,
+    "normal": 0,
+    "wide": 0.5
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "light": {
+    "primary": "#1976D2",
+    "primaryVariant": "#1565C0",
+    "secondary": "#03DAC6",
+    "secondaryVariant": "#018786",
+    "background": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "error": "#B00020",
+    "onPrimary": "#FFFFFF",
+    "onSecondary": "#000000",
+    "onBackground": "#000000",
+    "onSurface": "#000000",
+    "onError": "#FFFFFF",
+    "tuningIndicator": {
+      "inTune": "#4CAF50",
+      "sharp": "#FF9800",
+      "flat": "#FF9800",
+      "verySharp": "#F44336",
+      "veryFlat": "#F44336",
+      "neutral": "#9E9E9E"
+    },
+    "note": {
+      "detected": "#212121",
+      "target": "#757575"
+    }
+  },
+  "dark": {
+    "primary": "#90CAF9",
+    "primaryVariant": "#42A5F5",
+    "secondary": "#03DAC6",
+    "secondaryVariant": "#03DAC6",
+    "background": "#121212",
+    "surface": "#1E1E1E",
+    "error": "#CF6679",
+    "onPrimary": "#000000",
+    "onSecondary": "#000000",
+    "onBackground": "#FFFFFF",
+    "onSurface": "#FFFFFF",
+    "onError": "#000000",
+    "tuningIndicator": {
+      "inTune": "#66BB6A",
+      "sharp": "#FFA726",
+      "flat": "#FFA726",
+      "verySharp": "#EF5350",
+      "veryFlat": "#EF5350",
+      "neutral": "#757575"
+    },
+    "note": {
+      "detected": "#FFFFFF",
+      "target": "#BDBDBD"
+    }
+  }
+}

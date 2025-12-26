@@ -1,0 +1,101 @@
+{
+  "spacing": {
+    "xs": {
+      "value": 4,
+      "unit": "dp"
+    },
+    "sm": {
+      "value": 8,
+      "unit": "dp"
+    },
+    "md": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "lg": {
+      "value": 24,
+      "unit": "dp"
+    },
+    "xl": {
+      "value": 32,
+      "unit": "dp"
+    },
+    "xxl": {
+      "value": 48,
+      "unit": "dp"
+    }
+  },
+  "padding": {
+    "screenHorizontal": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "screenVertical": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "cardPadding": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "buttonPadding": {
+      "value": 12,
+      "unit": "dp"
+    },
+    "listItemPadding": {
+      "value": 16,
+      "unit": "dp"
+    }
+  },
+  "margins": {
+    "componentSpacing": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "sectionSpacing": {
+      "value": 24,
+      "unit": "dp"
+    }
+  },
+  "sizes": {
+    "touchTarget": {
+      "value": 44,
+      "unit": "dp",
+      "description": "Minimum touch target size for accessibility"
+    },
+    "tuningBarHeight": {
+      "value": 80,
+      "unit": "dp"
+    },
+    "stringIndicatorSize": {
+      "value": 56,
+      "unit": "dp"
+    },
+    "iconSize": {
+      "value": 24,
+      "unit": "dp"
+    },
+    "iconLarge": {
+      "value": 48,
+      "unit": "dp"
+    }
+  },
+  "borderRadius": {
+    "small": {
+      "value": 4,
+      "unit": "dp"
+    },
+    "medium": {
+      "value": 8,
+      "unit": "dp"
+    },
+    "large": {
+      "value": 16,
+      "unit": "dp"
+    },
+    "circle": {
+      "value": 9999,
+      "unit": "dp"
+    }
+  }
+}

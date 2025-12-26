@@ -1,0 +1,69 @@
+{
+  "tunings": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "description": "Standard guitar tuning (E A D G B E)",
+      "strings": [
+        { "number": 1, "note": "E", "octave": 4, "frequency": 329.63 },
+        { "number": 2, "note": "B", "octave": 3, "frequency": 246.94 },
+        { "number": 3, "note": "G", "octave": 3, "frequency": 196.00 },
+        { "number": 4, "note": "D", "octave": 3, "frequency": 146.83 },
+        { "number": 5, "note": "A", "octave": 2, "frequency": 110.00 },
+        { "number": 6, "note": "E", "octave": 2, "frequency": 82.41 }
+      ]
+    },
+    {
+      "id": "drop-d",
+      "name": "Drop D",
+      "description": "Drop D tuning (D A D G B E)",
+      "strings": [
+        { "number": 1, "note": "E", "octave": 4, "frequency": 329.63 },
+        { "number": 2, "note": "B", "octave": 3, "frequency": 246.94 },
+        { "number": 3, "note": "G", "octave": 3, "frequency": 196.00 },
+        { "number": 4, "note": "D", "octave": 3, "frequency": 146.83 },
+        { "number": 5, "note": "A", "octave": 2, "frequency": 110.00 },
+        { "number": 6, "note": "D", "octave": 2, "frequency": 73.42 }
+      ]
+    },
+    {
+      "id": "half-step-down",
+      "name": "Half Step Down",
+      "description": "Eb standard tuning (Eb Ab Db Gb Bb Eb)",
+      "strings": [
+        { "number": 1, "note": "Eb", "octave": 4, "frequency": 311.13 },
+        { "number": 2, "note": "Bb", "octave": 3, "frequency": 233.08 },
+        { "number": 3, "note": "Gb", "octave": 3, "frequency": 185.00 },
+        { "number": 4, "note": "Db", "octave": 3, "frequency": 138.59 },
+        { "number": 5, "note": "Ab", "octave": 2, "frequency": 103.83 },
+        { "number": 6, "note": "Eb", "octave": 2, "frequency": 77.78 }
+      ]
+    },
+    {
+      "id": "full-step-down",
+      "name": "Full Step Down",
+      "description": "D standard tuning (D G C F A D)",
+      "strings": [
+        { "number": 1, "note": "D", "octave": 4, "frequency": 293.66 },
+        { "number": 2, "note": "A", "octave": 3, "frequency": 220.00 },
+        { "number": 3, "note": "F", "octave": 3, "frequency": 174.61 },
+        { "number": 4, "note": "C", "octave": 3, "frequency": 130.81 },
+        { "number": 5, "note": "G", "octave": 2, "frequency": 98.00 },
+        { "number": 6, "note": "D", "octave": 2, "frequency": 73.42 }
+      ]
+    },
+    {
+      "id": "drop-c",
+      "name": "Drop C",
+      "description": "Drop C tuning (C G C F A D)",
+      "strings": [
+        { "number": 1, "note": "D", "octave": 4, "frequency": 293.66 },
+        { "number": 2, "note": "A", "octave": 3, "frequency": 220.00 },
+        { "number": 3, "note": "F", "octave": 3, "frequency": 174.61 },
+        { "number": 4, "note": "C", "octave": 3, "frequency": 130.81 },
+        { "number": 5, "note": "G", "octave": 2, "frequency": 98.00 },
+        { "number": 6, "note": "C", "octave": 2, "frequency": 65.41 }
+      ]
+    }
+  ]
+}
